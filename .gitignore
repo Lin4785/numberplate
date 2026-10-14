@@ -1,0 +1,31 @@
+# 依赖
+node_modules/
+
+# 本地 SQLite 数据库（npm run seed 会自动生成）
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# 环境变量与密钥（.env.example 仍然提交）
+.env
+.env.*
+!.env.example
+
+# 日志与临时文件
+*.log
+npm-debug.log*
+*.tmp
+tmp/
+
+# 测试 / 构建产物
+coverage/
+dist/
+build/
+
+# 编辑器与操作系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

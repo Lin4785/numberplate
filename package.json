@@ -1,0 +1,25 @@
+{
+  "name": "numberplate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "车牌选号系统 - 互联网选号仿真（随机选号 / 自编选号 / 号牌规则校验 / 选号凭证 / 管理后台）",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js --reset",
+    "test": "node --test",
+    "smoke": "node scripts/smoke.mjs",
+    "lint:actions": "node scripts/check-actions.mjs",
+    "test-data": "node scripts/sample-data.mjs"
+  },
+  "keywords": [
+    "车牌",
+    "选号",
+    "license-plate"
+  ],
+  "license": "MIT"
+}
